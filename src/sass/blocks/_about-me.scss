@@ -1,6 +1,6 @@
 .about-me {
 	padding-top: 120px;
-	background-color: #000;
+	background-color: #FFF;
 	&__wrapper {
 		display: grid;
 		grid-template-columns: 400px 670px;
@@ -16,12 +16,16 @@
 		}
 	}
 	&__title {
+        color: black;
 		position: relative;
 		padding-left: 12px;
 		padding-top: 1px;
 		@include before_circle;
 		z-index: 2;
 	}
+    &__subtitle {
+        color: black;
+    }
 	&__descr {
 		padding-top: 6px;
 		.divider {
@@ -32,26 +36,27 @@
 		margin-top: 20px;
 		font-size: 14px;
 		line-height: 21px;
-		color: #fff;
+		color: black;
 	}
 
 	&__skills {
 		display: grid;
-		grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 260px);
+		grid-template: repeat(2, minmax(115px, auto)) / repeat(2, minmax(300px, auto));
 		grid-auto-rows: 1fr;
 		column-gap: 50px;
 		row-gap: 20px;
 		&-item {
 			display: grid;
-			grid-template-columns: 40px 200px;
+			grid-template-columns: 40px 260px;
 			column-gap: 20px;
 		}
 		&-text {
+            word-wrap: break-word;
             margin-top: 10px;
 			font-weight: 500;
 			font-size: 12px;
 			line-height: 18px;
-			color: #fff;
+			color: black;
 		}
         &-circle {
             position: relative;
