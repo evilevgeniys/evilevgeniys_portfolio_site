@@ -1,0 +1,27 @@
+@media (max-width: 992px){
+    .promo {
+        &__icons {
+            width: 300px;
+        }
+    }
+    .consultation {
+        .title {
+            text-align: center;
+        }
+        &__descr {
+            text-align: center;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .button {
+            margin-top: 15px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 550px;
+        }
+    }
+}
