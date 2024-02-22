@@ -12,7 +12,7 @@
 }
 
 .container {
-    width: 1140px;
+    width: 920px;
     margin: 0 auto;
 }
 
@@ -33,4 +33,5 @@
 @import 'blocks/skills';
 @import 'blocks/portfolio';
 @import 'blocks/contacts';
+@import 'base/media';
 
