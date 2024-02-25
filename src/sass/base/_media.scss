@@ -67,17 +67,25 @@
             padding-right: 0;
             grid-template: 340px auto auto / 1fr;
         }
-        &__photo {
-
-        }
         &__descr {
             padding-top: 40px;
         }
         &__skills {
             grid-template-columns: repeat(2, 260px);
             &-item {
-                grid-template-columns: 40px, 200px;
+                grid-template-columns: 40px 200px;
                 column-gap: 20px;
+            }
+        }
+        &__photo {
+            grid-row: 1 / 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                object-fit: cover;
+                height: 100%;
+                width: 53%;
             }
         }
     }
