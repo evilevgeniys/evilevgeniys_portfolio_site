@@ -214,6 +214,9 @@
 		}
 	}
 	.about-me {
+		&__descr {
+			margin: 0 auto;
+		}
 		&__wrapper {
 			grid-template: 340px auto auto / 1fr;
 			row-gap: 40px;
@@ -223,7 +226,7 @@
 		}
 	}
 	.divider {
-		margin-top: 15px;
+		margin: 15px auto;
 	}
 	.contacts {
         &__wrapper {
