@@ -4,4 +4,8 @@
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 12px 25px;
 	border: none;
+	transition: all 0.2s;
+	&:hover {
+		background: $hover-color;
+	}
 }
