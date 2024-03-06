@@ -18,7 +18,7 @@
 		display: block;
 		width: 30px;
 		height: 3px;
-		background-color: $main-color;
+		background-color: $text-color;
 	}
 	span.long {
 		width: 36px;
@@ -57,12 +57,17 @@
 		position: absolute;
 		top: 25px;
 		right: 25px;
+		svg {
+			path {
+				fill: $text-white-color;
+			}
+		}
 		cursor: pointer;
 		&:hover {
 			svg {
 				path {
 					transition: all .6s;
-					fill: $hover-color;
+					fill: $text-color;
 				}
 			}
 		}
@@ -91,8 +96,8 @@
         }
         &:hover {
             &:before {
-                background-color: $hover-color;
-                border: 1px solid $hover-color;
+                background-color: $text-color;
+                border: 1px solid $text-color;
             } 
         }
 		a {
@@ -100,7 +105,7 @@
             text-decoration: none;
 			&:hover {
 				transition: all 0.2s;
-				color: $hover-color;
+				color: $text-color;
 			}
         }
 	}
