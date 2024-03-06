@@ -1,5 +1,5 @@
 .contacts {
-	padding: 120px;
+	padding: 30px;
 	&__wrapper {
 		display: grid;
 		grid-template-columns: 400px 670px;
@@ -16,9 +16,6 @@
 	&__title {
 		color: black;
 		position: relative;
-		padding-left: 12px;
-		padding-top: 1px;
-		@include before_circle;
 		z-index: 2;
 	}
 	&__subtitle {
