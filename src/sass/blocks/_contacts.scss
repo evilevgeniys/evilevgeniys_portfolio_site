@@ -1,17 +1,15 @@
 .contacts {
 	padding: 30px;
+	text-align: center;
+
 	&__wrapper {
 		display: grid;
-		grid-template-columns: 400px 670px;
+		grid-template-columns: 670px;
 		grid-template-rows: minmax(245px, auto);
+		justify-items: center;
+		justify-content: center;
 		column-gap: 70px;
 		row-gap: 40px;
-	}
-	&__photo {
-		grid-row: 1/2;
-		img {
-			width: 100%;
-		}
 	}
 	&__title {
 		color: black;
@@ -44,6 +42,7 @@
 		grid-template: 45px 190px 45px / repeat(2, 320px);
 		justify-content: space-between;
 		row-gap: 27px;
+		column-gap: 10px;
         label {
             position: absolute;
             top: -9px;
@@ -63,7 +62,7 @@
 		column-gap: 35px;
 	}
 	&__policy {
-		font-style: 12px;
+		font-size: 14px;
 		line-height: 14px;
 		display: flex;
 		align-items: center;
