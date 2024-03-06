@@ -34,8 +34,16 @@
 		img {
 			width: 30px;
 			height: 30px;
+				&:hover {
+					svg {
+						path {
+							fill: $hover-color;
+						}
+					}
+				}
+				
+			}
 		}
-	}
 	&__form {
 		margin-top: 30px;
 		display: grid;
