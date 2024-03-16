@@ -1,7 +1,7 @@
 .about-me {
 	min-height: 600px;
 	padding-top: 30px;
-	background: linear-gradient(91.41deg, #ffcea0 1.18%, #ff9e45 75.9%);
+	background: $second-color;
 	&__wrapper {
 		display: flex;
 		flex-direction: row;

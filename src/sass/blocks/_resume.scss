@@ -1,7 +1,7 @@
 .resume {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #D9D9D9;
+    background-color: $main-color;
     &__title {
         text-align: center;
         position: relative;
@@ -50,7 +50,7 @@
                     position: absolute;
                     top: -16px;
                     left: 0;
-                    background-color: #000;
+                    background-color: $text-white-color;
                 }
             }
         }
@@ -62,7 +62,7 @@
             height: 1px;
             width: 43px;
             position: absolute;
-            background-color:#000;
+            background-color: $text-white-color;
             top: 49px;
         }
         &-head {
