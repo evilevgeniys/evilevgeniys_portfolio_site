@@ -53,13 +53,10 @@
 		row-gap: 27px;
 		column-gap: 10px;
         label {
-            position: absolute;
-            top: -9px;
-            left: 12px;
             display: block;
             height: 18px;
             padding: 0 8px;
-            background-color: #fff;
+            background-color: $second-color;
             font-size: 12px;
             margin-bottom: 0;
         }
